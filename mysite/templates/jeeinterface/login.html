@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Log in</title>
+		<link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+	</head>
+
+	<body>
+	<div id="wrapper">
+		<div class="header">
+		<h1>Login Page</h1>
+		</div>
+
+		<form id="login_form" method="post" action="/jeeinterface/login/">
+			<div class="content">
+			{% csrf_token %}
+			Username: <input type="text" name="username" value="" size="50" />
+			<div class="user-icon"></div>
+			<br />
+			Password: <input type="password" name="password" value="" size="50" />
+			<div class="pass-icon"></div>   
+			<br />
+			</div>
+			<div class="footer">
+			<input type="submit" value="submit" class="button"/>
+			<br><br>
+			 First time here?
+			<a href="/jeeinterface/register" class="register"> Register</a>
+			</div>
+		</form>
+	</div>
+	<div class="gradient"></div>
+	</body>
+</html>

@@ -1,0 +1,320 @@
+101
+Indian Institute of Technology Bhubaneswar
+1 Civil Engineering A4109
+2 Electrical Engineering A4111
+3 Mechanical Engineering A4125
+Indian Institute of Technology Bombay
+4 Aerospace Engineering B4101
+5 Chemical Engineering B4107
+6 Civil Engineering B4109
+7 Computer Science and Engineering B4110
+8 Electrical Engineering B4111
+9 Engineering Physics B4117
+10 Mechanical Engineering B4125
+11 Metallurgical Engineering and Materials Science B4128
+12 Chemical Engineering B5210
+13 Electrical Engineering with M.Tech. in Communications
+and Signal Processing
+B5219
+14 Electrical Engineering with M.Tech. in Microelectronics B5221
+15 Energy Engineering with M.Tech. in Energy Systems
+Engineering
+B5226
+16 Engineering Physics with M.Tech. in Engineering
+Physics with specialization in Nano Science
+B5229
+17 Mechanical Engineering with M.Tech. in Computer Aided
+Design and Automation
+B5234
+18 Mechanical Engineering with M.Tech. in Computer
+Integrated Manufacturing
+B5235
+19 Metallurgical Engineering and Materials Science with
+M.Tech. in Ceramics and Composites
+B5244
+20 Metallurgical Engineering and Materials Science with
+M.Tech. in Metallurgical Process Engineering
+B5245
+21 Chemistry B5503
+Indian Institute of Technology Delhi
+22 Chemical Engineering D4107
+23 Civil Engineering D4109
+24 Computer Science and Engineering D4110
+25 Electrical Engineering D4111
+26 Electrical Engineering (Power) D4112
+27 Engineering Physics D4117
+28 Mechanical Engineering D4125
+29 Production and Industrial Engineering D4136
+30 Textile Technology D4139
+31 Biochemical Engineering and Biotechnology D5205
+32 Chemical Engineering D5210
+33 Computer Science and Engineering D5216
+34 Electrical Engineering with M.Tech. in Information and
+Communication Technology
+D5220
+35 Mathematics and Computing D5305
+Indian Institute of Technology Gandhinagar
+36 Chemical Engineering N4107
+37 Electrical Engineering N4111
+38 Mechanical Engineering N4125
+Indian Institute of Technology Guwahati
+39 Biotechnology W4104
+40 Chemical Engineering W4107
+41 Chemical Science and Technology W4108
+42 Civil Engineering W4109
+43 Computer Science and Engineering W4110
+44 Electronics and Communication Engineering W4114
+45 Electronics and Electrical Engineering W4116
+46 Engineering Physics W4117
+47 Mathematics and Computing W4124
+48 Mechanical Engineering W4125
+49 Design W4401
+Indian Institute of Technology Hyderabad
+50 Chemical Engineering H4107
+51 Civil Engineering H4109
+52 Computer Science and Engineering H4110
+53 Electrical Engineering H4111
+54 Engineering Science H4118
+55 Mechanical Engineering H4125
+Indian Institute of Technology Indore
+56 Computer Science and Engineering E4110
+57 Electrical Engineering E4111
+58 Mechanical Engineering E4125
+Indian Institute of Technology Kanpur
+59 Aerospace Engineering K4101
+60 Biological Sciences and Bioengineering K4103
+61 Chemical Engineering K4107
+62 Civil Engineering K4109
+63 Computer Science and Engineering K4110
+64 Electrical Engineering K4111
+65 Materials Science and Engineering K4123
+66 Mechanical Engineering K4125
+67 Chemistry K4201
+68 Economics K4202
+69 Mathematics and Scientific Computing K4203
+70 Physics K4204
+Indian Institute of Technology Kharagpur
+71 Aerospace Engineering G4101
+72 Agricultural and Food Engineering G4102
+73 Biotechnology and Biochemical Engineering G4105
+74 Chemical Engineering G4107
+75 Civil Engineering G4109
+76 Computer Science and Engineering G4110
+77 Electrical Engineering G4111
+78 Electronics and Electrical Communication Engineering G4115
+79 Industrial Engineering G4120
+80 Instrumentation Engineering G4121
+81 Manufacturing Science and Engineering G4122
+Course Title Course
+Code
+Course Title Course
+Code
+Table 2 : INSTITUTE-WISE LIST OF COURSES OFFERED AND TOTAL NUMBER OF SEATS
+102
+82 Mechanical Engineering G4125
+83 Metallurgical and Materials Engineering G4127
+84 Mining Engineering G4130
+85 Ocean Engineering and Naval Architecture G4133
+86 Architecture G5101
+87 Aerospace Engineering D5201
+88 Agricultural and Food Engineering with M.Tech. in any of
+the listed specializations
+G5203
+89 Biotechnology and Biochemical Engineering G5208
+90 Chemical Engineering G5210
+91 Civil Engineering with any of the listed specialization G5215
+92 Computer Science and Engineering G5216
+93 Electrical Engineering with M.Tech. in any of the listed
+specializations
+G5222
+94 Electronics and Electrical Communication Engineering
+with M.Tech. in any of the listed specializations
+G5225
+95 Industrial Engineering with M.Tech. in Industrial
+Engineering and Management
+G5230
+96 Manufacturing Science and Engineering with M.Tech. in
+Industrial Engineering and Management
+G5231
+97 Mechanical Engineering with M.Tech. in any of the listed
+specializations
+G5239
+98 Metallurgical and Materials Engineering with M.Tech. in
+Metallurgical and Materials Engineering
+G5243
+99 Mining Engineering G5247
+100 Mining Safety Engineering G5248
+101 Ocean Engineering and Naval Architecture G5251
+102 Quality Engineering Design and Manufacturing G5253
+103
+104 Applied Geology G5501
+105 Chemistry G5503
+106 Economics G5504
+107 Exploration Geophysics G5505
+108 Mathematics and Computing G5506
+108 Physics G5507
+Indian Institute of Technology Madras
+109 Aerospace Engineering M4101
+110 Chemical Engineering M4107
+111 Civil Engineering M4109
+112 Computer Science and Engineering M4110
+113 Electrical Engineering M4111
+114 Engineering Physics M4117
+115 Mechanical Engineering M4125
+116 Metallurgical and Materials Engineering M4127
+117 Naval Architecture and Ocean Engineering M4132
+118 Aerospace Engineering M5201
+119 Aerospace Engineering with M.Tech. in Applied Mechanics
+with specialization in Biomedical Engineering
+M5202
+120 Biological Engineering M5207
+121 Chemical Engineering M5210
+122 Civil Engineering with M.Tech. in Applied Mechanics in
+any of the listed specializations
+M5212
+123 Civil Engineering (Infrastructural Civil Engineering) M5213
+124 Civil Engineering with any of the listed specialization M5215
+125 Computer Science and Engineering M5216
+126 Electrical Engineering M5217
+127 Electrical Engineering with M.Tech in Applied Mechanics
+with specialization in Biomedical Engineering
+M5218
+128 Engineering Design (Automotive Engineering) M5227
+129 Engineering Design (Biomedical Design) M5228
+130 Mechanical Engineering (Thermal Engineering) M5236
+131 Mechanical Engineering (Intelligent Manufacturing) M5237
+132 Mechanical Engineering (Product design) M5238
+133 Metallurgical and Materials Engineering M5241
+134 Naval Architecture and Ocean Engineering M5249
+135 Naval Architecture and Ocean Engineering with M.Tech
+in Applied Mechanics in any of the listed specializations
+M5250
+136 Biological Sciences M5601
+137 Physics M5602
+Indian Institute of Technology Mandi
+138 Computer Science and Engineering C4110
+139 Electrical Engineering C4111
+140 Mechanical Engineering C4125
+Indian Institute of Technology Patna
+141 Computer Science and Engineering P4110
+142 Electrical Engineering P4111
+143 Mechanical Engineering P4125
+Indian Institute of Technology Rajasthan
+144 Computer Science and Engineering J4110
+145 Electrical Engineering J4111
+146 Mechanical Engineering J4125
+147 Systems Science J4138
+Indian Institute of Technology Roorkee
+148 Biotechnology R4104
+149 Chemical Engineering R4107
+150 Civil Engineering R4109
+151 Computer Science and Engineering R4110
+152 Electrical Engineering R4111
+153 Electronics and Communication Engineering R4114
+154 Mechanical Engineering R4125
+155 Metallurgical and Materials Engineering R4127
+156 Polymer Science and Technology R4135
+157 Production and Industrial Engineering R4136
+158 Pulp and Paper Engineering R4137
+159 Architecture R5101
+160 Chemical Engineering with M.Tech. in Hydrocarbon
+Engineering
+R5211
+161 Civil Engineering with M.Tech. in Structural Engineering R5214
+162 Electrical Engineering with M.Tech. in Power Electronics R5223
+Course Title Course
+Code
+Course Title Course
+Code
+103
+163 Electronics and Communication Engineering with
+M.Tech. in Wireless Communication
+R5224
+164 Metallurgical and Materials Engineering with M.Tech. in
+Materials Engineering
+R5242
+165 Geological Technology R5302
+166 Geophysical Technology R5303
+167 Process Engineering with MBA R5403
+168 Applied Mathematics R5502
+169 Chemistry R5503
+170 Physics R5507
+Indian Institute of Technology Ropar
+171 Computer Science and Engineering U4110
+172 Electrical Engineering U4111
+173 Mechanical Engineering U4125
+Indian School of Mines, Dhanbad
+174 Chemical Engineering S4107
+175 Computer Science and Engineering S4110
+176 Electrical Engineering S4111
+177 Electronics and Communication Engineering S4114
+178 Environmental Engineering S4119
+179 Mechanical Engineering S4125
+180 Mineral Engineering S4129
+181 Mining Engineering S4130
+182 Mining Machinery Engineering S4131
+183 Petroleum Engineering S4134
+184 Mineral Engineering with M.Tech in Mineral Engineering S5246
+185 Mining Engineering with M.Tech. in Mining Engineering S5247
+186 Petroleum Engineering with M.Tech in Petroleum
+Management
+S5252
+187 Mathematics and Computing S5305
+189 Mineral Engineering with MBA S5401
+190 Mining Engineering with MBA S5402
+191 Applied Geology S5701
+192 Applied Geophysics S5702
+Institute of Technology, Banaras Hindu University,
+Varanasi
+193 Ceramic Engineering V4106
+194 Chemical Engineering V4107
+195 Civil Engineering V4109
+196 Computer Science and Engineering V4110
+197 Electrical Engineering V4111
+198 Electronics Engineering V4113
+199 Mechanical Engineering V4125
+200 Metallurgical Engineering V4126
+201 Mining Engineering V4130
+202 Pharmaceutics V4301
+203 Biochemical Engineering V5204
+204 Bioengineering with M.Tech in Biomedical Technology V5206
+205 Ceramic Engineering V5209
+206 Civil Engineering with M.Tech. in Structural Engineering V5214
+207 Computer Science and Engineering V5216
+208 Electrical Engineering with M.Tech. in Power Electronics V5223
+209 Material Science and Technology V5232
+210 Mechanical Engineering V5233
+211 Metallurgical Engineering V5240
+212 Mining Engineering V5247
+213 Engineering Physics V5301
+214 Industrial Chemistry V5304
+215 Mathematics and Computing V5305
+216 Pharmaceutics V5801
+Serial No. 103 not used. Total Number of Courses are : 215.
+INSTITUTE CODE GENERAL OBC(NCL) OBC(NCL)-M SC ST GE_PD OBC(NCL)
+_PD
+OBC(NCL)
+-M_PD
+SC_PD ST_PD Total
+IIT Bhubaneswar A 59 26 6 17 9 1 1 0 1 0 120
+IIT Bombay B 431 192 39 129 63 13 6 1 4 2 880
+IIT Mandi C 59 26 6 17 8 1 1 0 1 1 120
+IIT Delhi D 416 186 38 122 63 13 6 1 4 2 851
+IIT Indore E 58 26 6 18 9 2 1 0 0 0 120
+IIT Kharagpur G 657 292 59 195 98 20 9 2 6 3 1341
+IIT Hyderabad H 97 45 9 29 14 3 1 0 1 1 200
+IIT Rajasthan J 78 35 7 23 12 2 2 0 1 0 160
+IIT Kanpur K 405 180 37 120 60 12 7 0 4 2 827
+IIT Madras M 410 182 37 124 62 13 6 1 2 1 838
+IIT Gandhinagar N 58 26 6 17 9 2 1 0 1 0 120
+IIT Patna P 59 26 6 17 9 1 1 0 1 0 120
+IIT Roorkee R 567 253 51 169 84 18 8 1 5 3 1159
+ISM Dhanbad S 471 210 44 139 70 10 5 1 3 1 954
+IIT Ropar U 59 26 6 17 9 1 1 0 1 0 120
+IT-BHU Varanasi V 515 225 49 153 83 16 7 1 5 3 1057
+IIT Guwahati W 323 144 30 97 46 10 5 1 3 1 660
+4722 2100 436 1403 708 138 68 9 43 20 9647
+Course Title Course
+Code
+Course Title Course
+Code

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register</title>
+		<style type="text/css">
+			h1
+			{
+				font-family: Calibri; 
+				font-size: 22pt; 
+				font-style: normal; 
+				font-weight: bold; 
+				color:SlateBlue;
+				text-align: center; 
+				text-decoration: underline 
+			}
+			#user_form
+			{
+				font-family: Calibri; 
+				color:white; 
+				font-size: 11pt; 
+				font-style: normal;
+				text-align:; 
+				background-color: SlateBlue; 
+				border-collapse: collapse; 
+				border: 1px solid navy
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Register with Us</h1>
+
+		{% if registered %}
+		<strong>Thank you for registering!</strong>
+		<a href="/jeeinterface/">Return to the homepage.</a><br />
+		{% else %}
+
+		<form id="user_form" method="post" action="/jeeinterface/register/"
+				enctype="multipart/form-data">
+
+			{% csrf_token %}
+
+			<!-- Display each form. The as_p method wraps each element in a paragraph
+				 (<p>) element. This ensures each element appears on a new line,
+				 making everything look neater. -->
+			{{ user_form.as_p }}
+			{{ profile_form.as_p }}
+
+			<input type="submit" name="submit" value="Register" />
+		</form>
+		<p> Please input ranks for the categories applicable and let the rest be zero. </p>
+		{% endif %}
+	</body>
+</html>

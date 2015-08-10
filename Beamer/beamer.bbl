@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+
+\bibitem{django}
+``Django tutorials.'' \url{http://www.tangowithdjango.com/book17/}.
+\newblock Accessed: 2014-10-30.
+
+\bibitem{Allocation}
+``Discussion forum.''
+  \url{http://stackoverflow.com/questions/19027473/writing-a-csv-file-using-buffered-writer-in-java}.
+\newblock Accessed: 2014-10-30.
+
+\bibitem{models}
+``Django documentation.'' \url{https://docs.djangoproject.com/en/1.7/}.
+\newblock Accessed: 2014-10-30.
+
+\end{thebibliography}

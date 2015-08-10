@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basics</title>
+		<link rel="stylesheet" href="/static/css/index.css" type="text/css" media="screen, projection">
+		<script type="text/javascript" src="/static/js/jquery-1.4.2.min.js">
+		</script>
+		<script type="text/javascript" src="/static/js/index.js">
+		</script>
+
+	</head>
+
+	<body>
+		{% if user.is_authenticated %}
+		<div>
+			<h1>Hello {{ user.username }}!</h1>
+			<a href="/jeeinterface/logout/">Logout</a>
+			<br />
+			<h2> The courses available on the basis of your rank are: </h2>
+			<div id="listContainer">
+			{% if iitbbs %}
+			<ul id="expList">
+				<li>
+					<h3>Indian Institute of Technology, Bhubaneswar</h3>
+					<ul>
+						{% for c in iitbbs %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if iitb %}
+				<li>
+					<h3>Indian Institute of Technology, Bombay</h3>
+					<ul>
+						{% for c in iitb %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if iitmnd %}
+				<li>
+					<h3>Indian Institute of Technology, Mandi</h3>
+					<ul>
+						{% for c in iitmnd %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if iitd %}
+				<li>
+					<h3>Indian Institute of Technology, Delhi</h3>
+					<ul>
+						{% for c in iitd %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if iiti %}
+				<li>
+					<h3>Indian Institute of Technology, Indore</h3>
+					<ul>
+						{% for c in iiti %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if iitkgp %}
+				<li>
+					<h3>Indian Institute of Technology, Kharagpur</h3>
+					<ul>
+						{% for c in iitkgp %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if iith %}
+				<li>
+					<h3>Indian Institute of Technology, Hyderabad</h3>
+					<ul>
+						{% for c in iith %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if iitj %}
+				<li>
+					<h3>Indian Institute of Technology, Rajasthan</h3>
+					<ul>
+						{% for c in iitj %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if iitk %}
+				<li>
+					<h3>Indian Institute of Technology, Kanpur</h3>
+					<ul>
+						{% for c in iitk %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if iitm %}
+				<li>
+					<h3>Indian Institute of Technology, Madras</h3>
+					<ul>
+						{% for c in iitm %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if iitgn %}
+				<li>
+					<h3>Indian Institute of Technology, Gandhinagar</h3>
+					<ul>
+						{% for c in iitgn %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if iitp %}
+				<li>
+					<h3>Indian Institute of Technology, Patna</h3>
+					<ul>
+						{% for c in iitp %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if iitr %}
+				<li>
+					<h3>Indian Institute of Technology, Roorkee</h3>
+					<ul>
+						{% for c in iitr %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if ismd %}
+				<li>
+					<h3>Indian School of Mines, Dhanbad</h3>
+					<ul>
+						{% for c in ismd %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if iitrpr %}
+				<li>
+					<h3>Indian Institute of Technology, Ropar</h3>
+					<ul>
+						{% for c in iitrpr %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if iitbhu %}
+				<li>
+					<h3>Indian Institute of Technology, Banaras Hindu University, Varanasi</h3>
+					<ul>
+						{% for c in iitbhu %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endif %}
+			{% if iitg %}
+				<li>
+					<h3>Indian Institute of Technology, Guwahati</h3>
+					<ul>
+						{% for c in iitg %}
+							<li>{{ c.code }}, {{ c.name }}
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			</ul>
+			{% else %}
+				<strong>There are no courses that you are elegible for.</strong>
+				<br>
+			{% endif %}
+			</div>
+			</div>
+		{% else %}
+			<h1>Hello unknown!</h1>
+			<p> You need to login to proceed. </p>
+			<a href="/jeeinterface/login/">Login</a>
+			<a href="/jeeinterface/register/">Register Here</a>
+		{% endif %}
+		
+		{% if not user.is_authenticated %}
+			<a href="/jeeinterface/register/">Register Here</a><br />
+			<a href="/jeeinterface/login/">Login</a><br />
+		</div>
+		{% endif %}
+	</body>
+</html>

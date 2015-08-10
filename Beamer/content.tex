@@ -1,0 +1,103 @@
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{\centerline{CS 251 Project: A Report by Group 22}}
+\begin{block}{Contents}
+1. Lab 10: Java Implementation \newline \pause 
+2. Lab 11: Python and Django ~\cite{django} \newline \pause
+3. Conclusions \newline \pause
+4. References
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{\centerline{Lab 10: java Implementation}}
+\begin{block}{Contents}
+1. Gale Shapley Allocation ~\cite{Allocation} \newline \pause 
+2. Merit List Allocation ~\cite{Allocation} \newline \pause 
+3. Common Info
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{\centerline{1. Gale Shapley Allocation ~\cite{Allocation}}}
+\begin{block}{Contents}
+(i)   It is relatively simple to implement. \newline \pause 
+(ii)  MeritList class isn't needed. \newline \pause 
+(iii) We stored the ranks in candidate class and used them. \newline \pause 
+(iv)  Foreign candidates can be handled easily after everything is done. 
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{\centerline{2. Merit List Allocation ~\cite{Allocation}}}
+\begin{block}{Contents}
+(i)  Checking it's correctness is simply too tough. \newline \pause
+(ii) You need to manually evaluate the test cases to test the correctness of algorithm, which is a very tedius task in this case.
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{\centerline{3. Info}}
+\begin{block}{Contents}
+(i)   Candidates will map candidate id to the object candidate. \newline \pause 
+(ii)  Programs will map the program id to the corresponding object VirtualProgramme. \newline \pause 
+(iii) In GS, we stored the categories, \newline
+	  1 : General,   2 : OBC,   3 : SC,   4 : ST,\newline 5 : GEPD,   6 : OBCPD,   7 : SCPD,   8 : STPD. \newline \pause 
+(iv)  We stored these categories in the Candidate and VirtualProgramme as well. It helped to reduce the code a lot. \newline \pause 
+(v)   And then to compare based on two ranks, we used multiplying factor of $10^{5}$, assuming all ranks will be under $10^{5}$.
+\end{block}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{\centerline{Lab 11: Python and Django ~\cite{django}}}
+\begin{block}{Contents}
+1. pdf to csv conversion \newline \pause
+2. Populating the database \newline \pause
+3. Web framework to display a list of elegible courses 
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{\centerline{1. pdf to csv conversion}}
+\begin{block}{Contents}
+(i)   Tried using pdfMiner, pdfTables, pdfpy etc, but all to no avail. Finally used pdftotext by import os to mine it. \newline \pause
+(ii)  update.py creates an organised csv file output.csv. \newline \pause
+(iii) Sorted the courses of output.csv on the basis of their codes. \newline \pause
+(iv)  Merged the two csv files which in turn was to be used for populating the sqlite database of our application.
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{\centerline{2. Populating the database}}
+\begin{block}{Contents}
+(i)  Populated the sqlite database, using python shell in the django ~\cite{django} environment by \"python3 manage.py shell\". \newline \pause 
+(ii) Ran the commands in file populate\_db in the python shell (manually).
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{\centerline{3. Web framework to display a list of elegible courses}}
+\begin{block}{Contents}
+(i)   Made models ~\cite{models} for courses and UserProfile class which contained the attributes of the classes (name, id etc) along with their types (models.py \cite{models} ). \newline \pause
+(ii)  Added our django ~\cite{django} app jeeinterface in the mysite/urls.py file to create urls such as jeeinterface/login. \newline \pause 
+(iii) Implemented the user register-login system using the built-in django-forms ~\cite{django} .\newline \pause 
+(iv)  The rank of the logged user is used to find the courses one is elegible for. \newline \pause
+(v)   Courses that the user is elegible for, are displayed via college-wise collapsable lists.
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{\centerline{Conclusions}}
+This is our submission for the CS251 project. Hope you enjoyed going through the project report as much as we enjoyed making it.
+Any other reviews and/or suggetions are most welcome. Looking forward to hearing from you.
+\end{frame}
+
+\begin{frame}
+\frametitle{\centerline{References}}
+\bibliography{beamer}
+\bibliographystyle{ieeetr}
+\end{frame}
